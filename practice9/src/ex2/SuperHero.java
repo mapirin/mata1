@@ -1,5 +1,7 @@
 package ex2;
 
+import ex.Matango;
+
 public class SuperHero extends Hero {
 	private boolean flying;
 	public void fly() {
@@ -17,5 +19,11 @@ public class SuperHero extends Hero {
 	Hero h=new Hero();
 	public void hhh() {
 		h.run();
+	}
+	public void attack(Matango m) {
+		super.attack(m);
+		if(this.flying) {
+			super.attack(m);
+		}
 	}
 }
