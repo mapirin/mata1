@@ -12,7 +12,7 @@ public class Hero {
 				System.out.println(this.attack+"ポイントのダメージを与えた");
 				m.Heroattack();
 			}else {
-				System.out.println("攻撃は外れた");
+				System.out.println("攻撃は外れた...");
 			}
 		}
 		if(m.getHp()<0) {
