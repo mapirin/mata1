@@ -16,7 +16,7 @@ public class Hero {
 			}
 		}
 		if(m.getHp()<0) {
-			System.out.println("相手を倒した");
+			System.out.println("相手を倒した!");
 		}
 	}
 

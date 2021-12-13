@@ -6,7 +6,6 @@ public class Matango {
 	public int getHp() {
 		return this.hp;
 	}
-
 	public int Heroattack() {
 		Hero h=new Hero();
 		this.hp=this.hp-h.getAttack();
