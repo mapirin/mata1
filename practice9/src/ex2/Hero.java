@@ -14,4 +14,8 @@ public class Hero {
 	public void run() {
 		System.out.println(this.name+" run");
 	}
+
+	public Hero(int hp) {
+		System.out.println("Heroのコストラクタが作動");
+	}
 }
